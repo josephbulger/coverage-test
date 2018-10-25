@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc mocha --recursive",
-    "test:report": "nyc --reporter=text-lcov mocha --recursive | coveralls"
+    "test": "nyc --all mocha --recursive",
+    "test:report": "nyc --all --reporter=text-lcov mocha --recursive | coveralls"
   },
   "repository": {
     "type": "git",
