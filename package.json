@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "nyc mocha --recursive",
-    "test:report": "nyc --reporter=text-lcov mocha | coveralls"
+    "test:report": "nyc --reporter=text-lcov --recursive mocha | coveralls"
   },
   "repository": {
     "type": "git",
