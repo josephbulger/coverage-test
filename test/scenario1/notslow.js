@@ -1,7 +1,7 @@
 var assert = require('assert');
 var mr = require('mock-require');
 
-mr('../../src/scenario1/database', {
+mr('../../src/deps/database', {
   query: async function(collection, criteria) {
       return { hello: "world" };
   }

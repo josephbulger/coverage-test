@@ -1,4 +1,4 @@
-var database = require('./database');
+var database = require('../deps/database');
 
 module.exports = {
     getVideo: function(videoId) { 
