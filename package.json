@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc mocha",
+    "test": "nyc mocha --recursive",
     "test:report": "nyc --reporter=text-lcov mocha | coveralls"
   },
   "repository": {
@@ -23,6 +23,8 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
+    "mock-require": "^3.0.2",
     "nyc": "^13.1.0"
-  }
+  },
+  "dependencies": {}
 }
